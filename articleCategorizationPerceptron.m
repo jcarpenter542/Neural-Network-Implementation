@@ -1,7 +1,6 @@
 function [ articleCategorizationVect ] = articleCategorization( output )
 
     articleCategorizationVect = {};
-    titles = testingTitles();
     [rows cols] = size(output);
     
     for i = 1:cols
@@ -24,7 +23,6 @@ function [ articleCategorizationVect ] = articleCategorization( output )
         if (index == 6) 
             articleCategorizationVect(i,1) = cellstr('Sleep & Dreams');
         end
-%         articleCategorizationVect(i,2) = titles(i);
     end
     
 
