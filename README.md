@@ -1,7 +1,7 @@
 # Neural-Networks-Implementation
 This implementation of neural networks takes scholarly articles in the field of Cognitive Psychology and classifies them into a category.
 
-If you are interested in the bigger picture of the project, please see "Final Project Writeup.docx". This document specifies the steps it took to go from 120 scholarly article PDFs to classified documents according to relative word frequency. Additionally, it mentions how we can take a novel article and find the top 30 most similar articles to that article (from within the set of preprocessed text files). Note that this was a class project completed in only 3 weeks.
+If you are interested in the bigger picture of the project, please see "Final Project Writeup.docx". This document specifies the steps it took to go from 120 scholarly article PDFs to classified documents according to relative word frequency. Additionally, it mentions how we can take a novel article and find the top 30 most similar articles to that article (from within the set of preprocessed text files). Note that this was an undergraduate class project completed in only 3 weeks.
 
 There are two different types of neural network implementations included in this repository:
 1) Supervised learning via a Perceptron with backpropagation. To test the Perceptron, run the file "perceptronFinal.m".
